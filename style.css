@@ -32,9 +32,8 @@ section.social_proof {
   max-width: 300px;
 }
 .left_section_heading {
-  font-size: 35px;
-  font-weight: 700;
-  color: hsl(300, 43%, 22%);
+  font-weight: bold;
+  color: hsl(300, 61%, 14%);
 }
 .left_section_description {
   padding-top: 20px;
