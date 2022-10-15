@@ -26,6 +26,7 @@ section.social_proof {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-top: 40px;
 }
 .title_rating > .left_section {
   max-width: 300px;
@@ -43,9 +44,7 @@ section.social_proof {
 .right_section {
   margin-top: 25px;
 }
-.right_section {
-  min-width: 350px;
-}
+
 .rating {
   background: hsl(300, 24%, 96%);
   border-radius: 10px;
@@ -53,7 +52,8 @@ section.social_proof {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 350px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .rating > img {
@@ -70,31 +70,28 @@ section.social_proof {
 }
 
 .third_rating {
-  min-width: 300px;
   margin-left: 55px !important;
   margin-right: 0px !important;
 }
 .second_rating {
-  min-width: 300px;
   margin-left: 25px !important;
   margin-right: 25px !important;
 }
 .first_rating {
-  min-width: 300px;
   margin-right: 40px !important;
 }
 .review_section {
   margin-top: 40px;
   display: flex;
-  flex-wrap: wrap;
+
   justify-content: space-between;
 }
 .review {
-  width: 270px;
+  width: 280px;
   margin: 5px;
   border-radius: 12px;
   background: hsl(300, 43%, 22%);
-  padding: 20px;
+  padding: 30px;
 }
 .review_section > .first_review {
   margin-bottom: 30px;
@@ -145,6 +142,7 @@ article::after {
   }
   .review_section {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
   }
   .left_section_heading {
@@ -159,6 +157,7 @@ article::after {
   .review_section {
     display: flex;
     justify-content: center;
+
     margin: 0 !important;
   }
   .first_rating,
@@ -181,9 +180,7 @@ article::after {
     margin-bottom: 0px !important;
     margin-top: 0px !important;
   }
-  .right_section {
-    min-width: 300px !important;
-  }
+
   .first_review,
   .second_review,
   .third_review {
